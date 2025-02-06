@@ -9,6 +9,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 export default defineConfig({
   plugins: [react(), runtimeErrorOverlay(), themePlugin()],
+  base: '/ZadAl-Muslim/',
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "client", "src"),
