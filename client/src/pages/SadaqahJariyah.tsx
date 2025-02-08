@@ -22,7 +22,7 @@ export default function SadaqahJariyah() {
 
   const handleSubmit = () => {
     // Save the name and generate a link
-    window.location.href = `/marhom/${encodeURIComponent(name)}`;
+    window.location.href = `/sadaqah-jariyah/${encodeURIComponent(name)}`;
   };
 
   return (
